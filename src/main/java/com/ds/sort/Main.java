@@ -9,9 +9,10 @@ public class Main{
         ssort.sort(arr);
         System.out.println(Arrays.toString(arr));
         CountingSort csort = new CountingSort();
-        int[] arr1 = {1,4,1,2,7,5,2};
-        int[] sorted = csort.sort(arr1, 9);
-        System.out.println(Arrays.toString(sorted));
+        int[] arr1 = {1,4,1,2,6,5,2,6,6};
+        int[] sorted = csort.sort(arr1);
+        System.out.println(" original array : " + Arrays.toString(arr1));
+        System.out.println(" sorted (counting sort) array : " + Arrays.toString(sorted));
         
     }
 }
