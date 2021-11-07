@@ -1,6 +1,7 @@
 package com.ds.sort;
 
 public class BubbleSort {
+    // stable (also depends how it is implemented)
     public void sort(int[] array) {
         int length = array.length;
         for (int i = 0; i < length; i++) {

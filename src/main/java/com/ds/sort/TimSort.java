@@ -1,5 +1,5 @@
 package com.ds.sort;
 
-public class RedixSort {
+public class TimSort {
 
 }

@@ -1,6 +1,7 @@
 package com.ds.sort;
 
 import java.util.Arrays;
+// stable (if implemented as left[i]<=right[j])
 
 public class MergeSort {
     // Time: O(nlogn), space: O(n)

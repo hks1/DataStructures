@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SelectionSort {
     
-    // In-place, Time: O(n*n), Aux space: O(1)
+    // In-place, Time: O(n*n), Aux space: O(1), not stable
     
     public void sort(int[] nums) {
         int n = nums.length;
