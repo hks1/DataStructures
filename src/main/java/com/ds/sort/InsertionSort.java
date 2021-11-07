@@ -1,7 +1,7 @@
 package com.ds.sort;
 
 public class InsertionSort {
-    // time: worst & avg case O(n*n), best case O(n)
+    // time: worst & avg case O(n*n), best case O(n), stable (also depends how it is implemented)
     
     public void sort(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
